@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="startGame();">
+ 
+    <div class="flex">
+
+        <h1 id="message" class="text1">Result</h1>
+    </div>
+    <div class='grid'>
+        <div class='space' onclick="nextMove(this);" id='s1'></div>
+        <div class='space' onclick="nextMove(this);" id='s2'></div>
+        <div class='space' onclick="nextMove(this);" id='s3'></div>
+        <div class='space' onclick="nextMove(this);" id='s4'></div>
+        <div class='space' onclick="nextMove(this);" id='s5'></div>
+        <div class='space' onclick="nextMove(this);" id='s6'></div>
+        <div class='space' onclick="nextMove(this);" id='s7'></div>
+        <div class='space' onclick="nextMove(this);" id='s8'></div>
+        <div class='space' onclick="nextMove(this);" id='s9'></div>
+    </div>
+
+    <div class='flex'>
+        <button class='reset button' onclick="startGame();">Reset</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
